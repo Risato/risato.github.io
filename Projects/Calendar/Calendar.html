@@ -51,7 +51,7 @@
       <script src='http://derekeder.github.io/csv-to-html-table/js/csv_to_html_table.js'></script>
 
 
-      <script>
+      <script type="text/javascript">
 
   //derek eder's custom function that creates a hyperlink
   function format_link(name, link){
@@ -60,7 +60,7 @@
     else
       return "";
   }
-  init_table({
+  CsvToHtmlTable.init({
         csv_path: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ROwcdFChsAIx6-tgQ4PN6XdNc7uYumueLuZLmJ-KbfmQlI_80XhbNzpp9C_1QTXdq1B9TMMZOFi4/pub?gid=2075271814&single=true&output=csv', 
         element: 'table-container', 
         allow_download: true,
