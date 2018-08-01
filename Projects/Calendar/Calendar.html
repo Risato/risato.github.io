@@ -47,6 +47,14 @@
 
 
     <script>
+
+  //derek eder's custom function that creates a hyperlink
+  function format_link(link){
+    if (link)
+      return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+    else
+      return "";
+  }
       init_table({
         csv_path: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ROwcdFChsAIx6-tgQ4PN6XdNc7uYumueLuZLmJ-KbfmQlI_80XhbNzpp9C_1QTXdq1B9TMMZOFi4/pub?gid=2075271814&single=true&output=csv', 
         // csv_path: 'roster.csv',
