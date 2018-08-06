@@ -54,9 +54,9 @@
       <script type="text/javascript">
 
   //derek eder's custom function that creates a hyperlink
-  function format_link(name, link){
+  function format_link(link){
     if (link)
-      return "<a href='" + link + "' target='_blank'>" + name + "</a>";
+      return "<a href='" + link + "' target='_blank'>" + link + "</a>";
     else
       return "";
   }
@@ -64,9 +64,10 @@
         csv_path: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ROwcdFChsAIx6-tgQ4PN6XdNc7uYumueLuZLmJ-KbfmQlI_80XhbNzpp9C_1QTXdq1B9TMMZOFi4/pub?gid=2075271814&single=true&output=csv', 
         element: 'table-container', 
         allow_download: true,
-        // csv_options: {separator: ',', delimiter: '"'},
         csv_options: {separator: ','},
-        datatables_options: {"paging": true, "order": [[ 1, "desc" ]]}
+        datatables_options: {"paging": true, "order": [[ 1, "desc" ]]},
+        custom_formatting: [[5, format_link]] 
+
       });
     </script>
   </body>
