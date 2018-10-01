@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sierra Cascade Intensive Forest Management Research Cooperative Resource List</title>
+    <meta name="author" content="Ricky Satomi">
+    <meta content="Displays Completed SCIFMRC projects" />
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="http://derekeder.github.io/csv-to-html-table/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+    <link href="https://derekeder.github.io/csv-to-html-table/css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+      <!-- <h2>UC Fire Glossary</h2> -->
+      
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+
+<!--     <footer class='footer'>
+      <div class='container-fluid'>
+        <hr />
+        <p class='pull-right'><a href='https://github.com/derekeder/csv-to-html-table'>Powered by CSV to HTML Table</a> from <a href='http://derekeder.com'>Derek Eder</a></p>
+      </div>
+    </footer>
+ -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/bootstrap.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.csv.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.dataTables.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/dataTables.bootstrap.js"></script>    <script src='https://risato.github.io/Projects/CampRoster/js/csv_to_html_table.js'></script>
+
+
+    <script>
+      init_table({
+        csv_path: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSqQ9su58pNPRxB47Muv077LdAuIHOKsHxCqGmlqexZFYH5N4BhwPXVAWo8KSK-nqTOd0bE3RdQxNsY/pub?gid=1229065281&single=true&output=csv', 
+        // csv_path: 'roster.csv',
+        element: 'table-container', 
+        allow_download: true,
+        // csv_options: {separator: ',', delimiter: '"'},
+        csv_options: {separator: ','},
+        datatables_options: {"paging": true}
+      });
+    </script>
+  </body>
+</html>
