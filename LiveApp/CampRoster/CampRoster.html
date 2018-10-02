@@ -4,17 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>1941-Present Forestry Camp Roster</title>
     <meta name="author" content="Ricky Satomi">
     <meta content="Displays Forestry Camp as a searchable, filterable, pretty HTML table" />
-
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="http://derekeder.github.io/csv-to-html-table/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://derekeder.github.io/csv-to-html-table/css/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,17 +39,20 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/bootstrap.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.csv.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.dataTables.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/dataTables.bootstrap.js"></script>    <script src='https://risato.github.io/Projects/CampRoster/js/csv_to_html_table.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
+<script src="js/bootstrap.min.js"></script>    
+<script src="js/jquery.csv.min.js"></script>    
+<script src="js/jquery.dataTables.min.js"></script>    
+<script src="js/dataTables.bootstrap.js"></script>    
+<script src='js/csv_to_html_table.js'></script>
 
 
     <script>
-      init_table({
-        // https://docs.google.com/spreadsheets/d/1mrOibTkO35GkLl4dviHbx-9TLbeyMa9FxADxp-sDwmY/pub?gid=0&single=true&output=csv
-        csv_path: 'roster.csv', 
-        // csv_path: 'https://dl.dropboxusercontent.com/content_link/YN6IJnFc5QiRtJsmdgoMJusRBTKF7WKgfdGqYETVZhQ6BP5gdwGTTanPHuVwdzjC?dl=1',
+      CsvToHtmlTable.init({
+
+        csv_path: 'https://risato.github.io/LiveApp/CampRoster/roster.csv', // https://docs.google.com/spreadsheets/d/1mrOibTkO35GkLl4dviHbx-9TLbeyMa9FxADxp-sDwmY/pub?gid=0&single=true&output=csv
         element: 'table-container', 
         allow_download: true,
-        // csv_options: {separator: ',', delimiter: '"'},
         csv_options: {separator: ','},
         datatables_options: {"paging": false}
       });
