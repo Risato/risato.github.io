@@ -47,11 +47,12 @@
         }
       CsvToHtmlTable.init({
         csv_path: 'data/Publication&Report List - Infoguides.csv',
+        // https://docs.google.com/spreadsheets/d/e/2PACX-1vRjGzE4uHjciE5pOH6dcideT3g66cp7xTqK8QOUf4XIdST7Jn8aI5vOqx_XSL-01Kr3s0DWFokQpCo-/pub?gid=899415923&single=true&output=csv
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false},
-        custom_formatting: [[2, format_link]]
+        custom_formatting: [[5, format_link]]
       });
     </script>
 
