@@ -40,11 +40,16 @@
  -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster --><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/bootstrap.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.csv.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/jquery.dataTables.min.js"></script>    <script src="https://risato.github.io/Projects/CampRoster/js/dataTables.bootstrap.js"></script>    <script src='https://risato.github.io/Projects/CampRoster/js/csv_to_html_table.js'></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/jquery.csv.min.js"></script>    
+    <script src="js/jquery.dataTables.min.js"></script>    
+    <script src="js/dataTables.bootstrap.js"></script>    
+    <script src='js/csv_to_html_table.js'></script>
 
 
     <script>
-      init_table({
+      CsvToHtmlTable.init({
         csv_path: 'Data/California Primary Wood Processing Master List - Public.csv', 
         // csv_path: 'https://dl.dropboxusercontent.com/content_link/YN6IJnFc5QiRtJsmdgoMJusRBTKF7WKgfdGqYETVZhQ6BP5gdwGTTanPHuVwdzjC?dl=1',
         element: 'table-container', 
