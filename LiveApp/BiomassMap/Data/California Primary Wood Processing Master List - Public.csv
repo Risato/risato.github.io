@@ -1,0 +1,59 @@
+Name,Status,YearClosed,Previous_Names,MillType,Feedstock,Products,Species,City,State,Zip,PrimaryKey,latitude,longitude
+Blue Lake Forest Products,Idle,2003,,Sawmill,Logs,Lumber,,McKinleyville,CA,95519 ?,9076,40.899185,-124.01923
+Trinity River Korbel Sawmill,Active Project,2015,"Simpson Timber Co., Korbel, CA, California Redwood Company (Korbel)",Sawmill,Logs,Lumber,"Redwood, Douglas-fir",Korbel,CA,95518,9013,40.87184621,-123.9632726
+SPI Arcata Sawmill,Idle,2016,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, True fir",Arcata,CA,95521,9017,40.865848,-124.152849
+Rough & Ready Lbr. Co.,Liquidated,2016,,Sawmill,Logs,Lumber,"PP, DF (no WF or IC)",Cave Junction,OR,97523,9033,42.10528814,-123.6787754
+SPI Anderson Pole Plant,Operational,,Sierra Pacific Industries,Pole Peeler,Logs,Post/Pole,"Douglas-fir, Ponderosa Pine",Anderson,CA,96007,9009,40.471835,-122.32435
+SPI Anderson Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock-fir, Sugar Pine",Anderson,CA,96007 ?,9008,40.471498,-122.320991
+Almquist Lumber Co,Operational,,,Small Production Mill,Logs,Lumber,Hardwood,Arcata,CA,95521,9010,40.911424,-124.067932
+Arcata Forest Products Sawmill,Operational,,,Sawmill,Logs,Lumber,"RW, DF",Arcata,CA,95518,9012,40.901169,-124.071143
+Mad River Lbr. Sawmill,Operational,,Mad River Lumber,Sawmill,Logs,Fence Boards,redwood,Arcata,CA,95521,9016,40.885948,-124.081698
+Priority Pallets Sawmill,Operational,,Priority Pallets Sawmill,Sawmill,Logs,Lumber,"PP, SP, WF",Beaumont,CA,92223,9020,33.925539,-116.968097
+South Coast Lbr. Veneer & Plywood and SouthCoast Lbr. Dimension & Stud Sawmills,Operational,,,Sawmill,Logs,Lumber,,Brookings,OR,97415,9024,42.052701,-124.290912
+Shasta Green Sawmill,Operational,,Burney Forest Products (owned by Big Valley Lumber Company),Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, True Fir",Burney,CA,96013,9026,40.8782226,-121.7266623
+SPI Burney Sawmill,Operational,,"Scott Lumber, Publishers",Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, Hemlock, Sugar Pine",Burney,CA,96013,9027,40.876365,-121.701786
+Berry's Sawmill,Operational,,Berry Sawmill & Lumber Yard,Sawmill,Logs,Lumber,"RW, DF",Cazadero,CA,95421,9034,38.46454832,-123.0410353
+Collins Chester Sawmill,Operational,,Collins Pine Co,Sawmill,Logs,Lumber,"Douglas-fir, Ponderosa Pine, Incense Cedar, true fir, Hemlock, Sugar Pine",Chester,CA,96020,9036,40.30330794,-121.2413703
+SPI Chinese Camp Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Fence Boards,"IC, WF",Chinese Camp,CA,95309,9037,37.88282739,-120.4536966
+Redwood Empire (Cloverdale),Operational,,"Preston Lumber Corporation (Cloverdale Plant), Richardson Lumber",Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Cloverdale,CA,95425,9039,38.820891,-123.018623
+Big Creek Lbr. Co. Sawmill,Operational,,Big Creek Lumber Co,Sawmill,Logs,Lumber,"DF, Redwood",Davenport,CA,95017,9044,37.090154,-122.273326
+Commander Lumber Co.,ND,,,Sawmill,Logs,Lumber,,Elk Creek,CA,95939 ?,9047,39.587495,-122.540479
+Trinity River Schmidbauer Lumber Company Sawmill,Operational,,Schmidbauer Lumber Company,Sawmill,Logs,Lumber,"Redwood, Douglas-fir, Hemlock",Eureka,CA,95501,9001,40.79719014,-124.1815646
+Kubich Lumber Co,Operational,,,Small Production Mill,Logs,Lumber,"Incense Cedar, Sugar Pine",Grass Valley,CA,95945,9058,39.238323,-121.089604
+California Wood Shavings,Operational,,California Wood Shavings,Whole Log Shaver,Logs,Shavings,pine,Jamestown,CA,95327,9062,37.83896858,-120.5037001
+SPI Keystone Bark Plant,Operational,,"Sierra Pacific Industries, Keystone, Louisiana pacific (Jamestown)",Bark Processor,Bark,Bark Products,,Jamestown,CA,96019,9063,37.83790896,-120.5063675
+Columbia Forest Products Plywood,Operational,,,Veneer and Hardwood Plywood,Logs,Veneer and Hardwood Plywood,"WF, Hybrid Poplar, Hardwood Face Veneers",Klamath Falls,OR,97603 ?,9064,42.1796987,-121.8005483
+Jeld-Wen MDF,Operational,,,Sawmill,Logs,Lumber,"PP, SP",Klamath Falls,OR,97601,9065,42.25325412,-121.8060077
+Jeld-Wen Thomas Lbr. Sawmill,Operational,,,Sawmill,Logs,Lumber,,Klamath Falls,OR,97601,9066,42.25647449,-121.8046141
+SPI Lincoln Sawmill,Operational,,Bohemia,Sawmill,Logs,Lumber,,Lincoln,CA,95648,9002,38.90448023,-121.3070281
+SierraPine Martell Particleboard,Operational,,Sierra Pine Ltd,Composite Panel,Sawdust / Shavings / Chipa,Particleboard,,Martell,CA,95642,9112,38.379883,-120.798731
+Roseburg Medford MDF,Operational,,,Composite Panel,Sawdust/ Shavings/ Chips,MDF,,Medford,OR,?,9297,42.34711,-122.889474
+Cedar Creek Horse Logging & Milling Inc.,Operational,,,Small Production Mill,Logs,Lumber,,Nevada City,CA,95959,9078,39.267159,-121.014941
+United Bark Products,Operational,,,Bark Processor,Bark,Bark Products,,Orland,CA,95987,9082,39.687296,-122.197715
+SPI Oroville Cedar Sawmill,Operational,,,Sawmill,Logs,Lumber,,Oroville,CA,95965,9003,39.48193681,-121.5632263
+SPI Quincy Sawmill,Operational,,Sierra Pacific Industries - Quincy Station,Sawmill,Logs,Lumber,,Quincy,CA,95971,9090,39.93866858,-120.9112616
+Lassen Forest Products Bark Plant,Operational,,,Bark Processor,Bark,Bark Products,,Red Bluff,CA,96080,9095,40.12963114,-122.1878034
+Mallad Creek Shavings/Pellets,Operational,,,"Shavings, Pellet Mill",Chips,Shavings&Pellets,,Rocklin,CA,95765,9100,38.80935591,-121.3173498
+Murphy Softwood Plywood Plant,Operational,,,Plywood Layup,"Veneer
+",,,Rogue River,OR,97537,9056,42.424954,-123.162117
+Humboldt Redwood Sawmill,Operational,,"Pacific Lumber Co., Scotia, CA",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Scotia,CA,95565,9103,40.483615,-124.102748
+SPI Shasta Lake Sawmill,Operational,,Sierra Pacific Industries,Sawmill,Logs,Lumber,,Shasta Lake,CA,96019,9104,40.675837,-122.380149
+SPI Sonora Sawmill,Operational,,"Fibreboard, Louisiana Pacific",Sawmill,Logs,Lumber,"Douglas-fir, Hemlock, Incense Cedar, Ponderosa Pine, Sugar Pine",Sonora,CA,95370,9107,37.96333505,-120.3174788
+Dover Resources,ND,,,Pellet Mill,Sawdust / Shavings / Chips,Pellets,,Stockton,CA,,9108,37.956346,-121.362798
+Sierra Forest Products Sawmill,Operational,,Sierra Forest Products,Sawmill,Logs,Lumber,"PP, WF, SP, LPP, IC",Terra Bella,CA,93270,9113,35.95409644,-119.0489178
+Agwood Mill & Lbr.,Operational,,Agwood Mill & Lumber Inc,Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Ukiah,CA,95482,9117,39.17958875,-123.2036368
+Alta California Roundwood,Operational,,Blue Lake Round Stock,Post/Pole Mill,Logs,Post/Pole,Douglas-fir,Anderson,CA,,9292,40.484703,-122.345292
+Mendocino Forest Products Sawmill (Ukiah),Operational,,"Palco, LP",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Ukiah,CA,95482,9119,39.183738,-123.203868
+Trinity River Lbr Co. Sawmill,Operational,,Trinity River Lumber Co,Sawmill,Logs,Lumber,Douglas-fir,Weaverville,CA,96093,9120,40.72493045,-122.9306377
+Roseburg Forest Products Veneer Mill,Operational,,Roseburg Forest Products,Veneer,Logs,Veneer,"White fir, Ponderosa Pine",Weed,CA,96094,9121,41.43245271,-122.3794955
+Boise Wood Products Veneer/LVL/Plywood,Operational,,,Veneer,Logs,Veneer,,White City,OR,9750,9122,42.430189,-122.852102
+Murphy Co. Plywood Layup,Operational,,,Sawmill,Logs,,,White City,OR,97503,9124,42.43270557,-122.8592083
+Murphy Softwood Veneer Plant,Operational,,,Veneer,Logs,Veneer,"Douglas-fir, White fir",White City,OR,97503,9123,42.433787,-122.858651
+Timber Products Co. Particle Board and Plywood Mills,Operational,,,Sawmill,Logs,,,White City,OR,97503,9125,42.435871,-122.866862
+Willits Redwood Sawmill,Operational,,"Willits Redwood Co, harrah lumber",Sawmill,Logs,Lumber,"Douglas-fir, Redwood",Willits,CA,95490,9126,39.403232,-123.358427
+Fruit Growers Supply Co. Sawmill,Idle,2017,Hi-Ridge,Sawmill,Logs,Lumber,"PP, DF, WF, LPP",Yreka,CA,96097,9131,41.73064723,-122.5929565
+"Shasta Forest Products, Inc.",Operational,,,Bark Processor,Bark,Bark Products,,Yreka,CA,96097,9132,41.732792,-122.591179
+Timber Products Veneer Mill,Operational,,Timber Products Co,Veneer,Logs,Veneer,"DF, WF Shasta RF, pine and other. No IC.",Yreka,CA,96097,9133,41.737758,-122.593349
+Unity Forest Products,Operational,,,Small Production Mill,Logs,,,Yuba City,CA,95991 ?,9135,39.112056,-121.608451
+Redwood Empire Asti,Operational,,,Sawmill,Logs,Fence Boards,Redwood,Asti,CA,95425,9294,38.766782,-122.991567
+Trinity River Lumber Oroville Log Sort Yard,Operational,,,Sawmill,Logs,Logs,,Oroville,CA,95965,9295,39.49482,-121.563632

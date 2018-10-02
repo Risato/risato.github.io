@@ -346,17 +346,24 @@ legend.addTo(map);
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var poweroverlayOperational = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
   var powercontent = 
-  '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
-  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
-  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWname + ' MW '+'<br>' +
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  
+  '<b>Facility Type: </b>' + feature.properties.Project_Type +'<br>' +
+  
+  '<b>Output: </b>(Nameplate) ' + feature.properties.MW_Name + ' MW '+'<br>' +
+
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  
+  '<b>Employees: </b>' + feature.properties.Employees + '<br>' +
+
+  '<b>Alternative Names: </b>' + feature.properties.Previous_Name;
 
   powermarker.bindPopup(powercontent, {
     closeButton: true,
@@ -366,7 +373,7 @@ omnivore.csv('Data/Powerplant.csv')
 
   if (powermarker.feature.properties.Status ==='Operational')
   {
-    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    if (powermarker.feature.properties.Cogen ==='Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmSzNaSzJYRDUzRFE&amp;export-png',
@@ -385,7 +392,7 @@ omnivore.csv('Data/Powerplant.csv')
   }
   else if (powermarker.feature.properties.Status === 'Active Project')
   {    
-    if (powermarker.feature.properties.Cogen_Status === 'cogen')
+    if (powermarker.feature.properties.Cogen === 'Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmYzYxcWRYY0NDZ3M&amp;export-png',
@@ -417,18 +424,24 @@ omnivore.csv('Data/Powerplant.csv')
 
 //should loop this, but could not get it to work. Quicker to brute force.
 var poweroverlayProposal = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
-  var powercontent = 
-  '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
-  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
-  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWname + ' MW '+'<br>' +
+   var powercontent = 
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  
+  '<b>Facility Type: </b>' + feature.properties.Project_Type +'<br>' +
+  
+  '<b>Output: </b>(Nameplate) ' + feature.properties.MW_Name + ' MW '+'<br>' +
 
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  
+  '<b>Employees: </b>' + feature.properties.Employees + '<br>' +
+
+  '<b>Alternative Names: </b>' + feature.properties.Previous_Name;
   powermarker.bindPopup(powercontent, {
     closeButton: true,
     minWidth:320 });
@@ -437,7 +450,7 @@ omnivore.csv('Data/Powerplant.csv')
 
   if (powermarker.feature.properties.Status ==='Proposal')
   {
-    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    if (powermarker.feature.properties.Cogen ==='Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmRnJFc3ZZYzladGM&amp;export-png',
@@ -454,7 +467,7 @@ omnivore.csv('Data/Powerplant.csv')
   }
   else if (powermarker.feature.properties.Status === 'Pilot')
   {    
-    if (powermarker.feature.properties.Cogen_Status === 'cogen')
+    if (powermarker.feature.properties.Cogen === 'Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8Dmcy03ZjVNM21CcHM&amp;export-png',
@@ -485,17 +498,24 @@ omnivore.csv('Data/Powerplant.csv')
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
 var poweroverlayClosed = 
-omnivore.csv('Data/Powerplant.csv')
+omnivore.csv('Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
   var powercontent = 
-  '<h1>' + '<font color="2C49BO">' +feature.properties.MapLabel + '</font>'+ '</h1>' + '<hr>' +
-  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
-  '<b>Facility Type: </b>' + feature.properties.Project_Type + ', '+feature.properties.Cogen_Status + '<br>' +
-  '<b>Output: </b>' + feature.properties.MWname + ' MW '+'<br>' +
+  '<h1>' + '<font color="2C49BO">' +feature.properties.Name + '</font>'+ '</h1>' + '<hr>' +
+  
   '<b>Status: </b>' + feature.properties.Status + '<br>' +
-  '<b>Alternative Names: </b>' + feature.properties.OldName;
+  
+  '<b>Facility Type: </b>' + feature.properties.Project_Type +'<br>' +
+  
+  '<b>Output: </b>(Nameplate) ' + feature.properties.MW_Name + ' MW '+'<br>' +
+
+  '<b>Location: </b>' + feature.properties.City +', ' + feature.properties.State +'<br>' +
+  
+  '<b>Employees: </b>' + feature.properties.Employees + '<br>' +
+
+  '<b>Alternative Names: </b>' + feature.properties.Previous_Name;
 
   powermarker.bindPopup(powercontent, {
     closeButton: true,
@@ -505,7 +525,7 @@ omnivore.csv('Data/Powerplant.csv')
 
   if (powermarker.feature.properties.Status ==='Idle')
   {
-    if (powermarker.feature.properties.Cogen_Status ==='cogen')
+    if (powermarker.feature.properties.Cogen ==='Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmbWlQTUh6MkJkSEU&amp;export-png',
@@ -522,7 +542,7 @@ omnivore.csv('Data/Powerplant.csv')
   }
   else if (powermarker.feature.properties.Status === 'Liquidated')
   {    
-    if (powermarker.feature.properties.Cogen_Status === 'cogen')
+    if (powermarker.feature.properties.Cogen === 'Y')
     {
       powermarker.setIcon(L.icon({
         iconUrl: 'https://docs.google.com/uc?id=0B3yNiqk9X8DmQUJNemVBa016RUk&amp;export-png',
@@ -1015,7 +1035,6 @@ var miniMap = new L.Control.MiniMap(osm2, {width: 200, height: 150, position: 't
 // GEOCONTROL - add geolocation search box
 new L.Control.GeoSearch({
   provider: new L.GeoSearch.Provider.Google({
-    region: region
   })
 }).addTo(map);
 </script>

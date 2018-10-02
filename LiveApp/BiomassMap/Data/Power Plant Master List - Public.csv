@@ -1,0 +1,107 @@
+Name,Owner,Status,Cogen,MW_Nameplate,Project_Type,Employees,Previous_Name,City,State,County,RecID,latitude,longitude
+Blue Lake Rancheria,Blue Lake Rancheria,Active Project,N,0.8,H2 Gassifier and Ballard Fuel Cell,,,Blue Lake,CA,Humboldt,59,40.886347,-124.000079
+North Fork Community Power,North Fork Community Development Council,Active Project,N/A,2,Gasifier - Downdraft,,,North Fork,CA,Madera,60,37.231861,-119.494599
+Blue Mountain Power (Wilseyville BioMAT Project),Calaveras Healthy Impacts Products Solutions,Active Project,N/A,3,Biomass solid fuel,,,West Point,CA,Calaveras,61,38.37751,-120.523977
+Placer County Biomass Power Project,Placer County,Cancelled Project,Y,2,Gasification,,,Cabin Creek,CA,Placer,30,39.290828,-120.214074
+Iberdrola Lakeview Project,Iberdrola Renewables,Cancelled Project,Y,26.8,Biomass solid fuel,,,Lakeview,OR,Lake,53,42.197586,-120.354345
+Red Rock Biofuels,Red Rock Biofuels,Active Project,N/A,17.5,Fischer-Tropsch Process,40,,Lakeview,OR,Lake,135,42.163105,-120.349209
+Central Valley Ag Grinding,Central Valley Ag Grinding,Active Project,Y,1,Gasification,,,Oakdale,CA,Stanislaus,58,37.718988,-120.895545
+Hat Creek BioMAT Project,Hat Creek Construction,Active Project,N,3,Gasification,,,Hat Creek,CA,Shasta,137,40.83214935,-121.5149496
+Nevada County BioMAT Project,,Active Project,N/A,,Unknown,,,Nevada City,CA,Nevada,138,39.26364317,-121.0133516
+Camptonville BioMAT Project,,Active Project,N/A,,Unknown,,,Camptonville,CA,Yuba,139,39.45226864,-121.0484632
+Mooretown Rancheria BioMAT Project,,Active Project,N/A,,Unknown,,,Oroville,CA,Butte,141,39.46624093,-121.5218733
+Crescent Mill BioMAT Project,,Active Project,N/A,,Unknown,,,Crescent Mills,CA,Plumas,144,40.09576776,-120.9081135
+Valley Bio-Energy,Valley Bio-Energy,Cancelled Project,N,33,Biomass solid fuel,,,Modesto,CA,Stanislaus,101,37.6383,-120.999589
+Placer County Biomass Power Project,Placer County,Cancelled Project,Y,2,Gasification,,,Kings Beach,CA,Placer,107,39.245133,-120.027133
+Iberdrola Klamath Falls Project,Iberdrola Renewables,Cancelled Project,Y,,Unknown,,,Klamath Falls,OR,Klamath,54,42.176324,-121.809231
+Klamath Falls Bioenergy Project,Unknown,Cancelled Project,N/A,,Unknown,,,Klamath Falls,OR,Klamath,55,42.174472,-121.822306
+HFI BioPower,HFI Bio Power Project LLC,Cancelled Project,N/A,20,Unknown,,,La Pine,OR,Deschutes,116,43.668663,-121.486519
+Ortigalita Power,Ortigalita Power Co.,Cancelled Project,N/A,1,Unknown,,,Los Banos,CA,Merced,123,36.979552,-120.870087
+Rialto Renewable Energy Center,"Rentech, Inc",Cancelled Project,N/A,40,Fisher-Tropsch,,,Bloomington,CA,San Bernardino,124,34.052028,-117.359847
+Envirepel Los Coyotes,Envirepel,Cancelled Project,N/A,5,Unknown,,,Los Coyotes,CA,San Diego,113,,
+"Hanson Aggregates WRP, Inc.",Southern California Edison,Cancelled Project,N/A,0.3,Unknown,,,Newberry Springs,CA,San Bernadino,129,,
+Main Street Energy Facility,Ramco Renewable,Cancelled Project,N/A,51,Unknown,,,Chula Vista,CA,San Diego,130,,
+Silicon Valley Biomass Energy Center,"Zero Waste Energy, LLC",Cancelled Project,N/A,50,Unknown,,,San Jose,CA,Santa Clara,131,,
+Modesto Bio-Energy Project,"Modesto Bio-Energy, LLC",Cancelled Project,N/A,25.9,Unknown,,,Modesto,CA,Stanislaus,132,,
+Mushroom Power,Mushroom Power,Cancelled Project,N/A,1,Unknown,,,Escondido,CA,San Diego,133,,
+CRE Calipat,CRE Calipat,Cancelled Project,N/A,58,Unknown,,,Calipatria,CA,Imperial,134,,
+Diamond Walnut Biomass Power,Diamond Walnut,Cancelled Project,N,4.5,Biomass solid fuel,,,Stockton,CA,San Joaquin,13,37.950083,-121.254484
+Bull Moose,"Bull Moose Energy, LLC",Cancelled Project,N/A,20,Unknown,,,San Diego,CA,San Diego,110,32.566906,-116.941888
+Envirepel Fallbrook,Envirepel,Cancelled Project,N/A,40,Unknown,,,Fallbrook,CA,San Diego,112,33.333935,-117.145164
+Envirepel Ramona,Envirepel,Cancelled Project,N/A,5,Unknown,,,Ramona,CA,San Diego,114,33.085519,-116.863258
+KittyHawk,Envirepel,Cancelled Project,N/A,2,Unknown,,,Vista,CA,San Diego,115,33.147989,-117.235388
+Imperial Valley Biopower,Energy Integration Group,Cancelled Project,N/A,20,Unknown,,,Brawley,CA,Imperial,117,32.903407,-115.534379
+Liberty 1 Biofuels Power,"Leucadia National Corporation, McCarthy Family Farms",Cancelled Project,N/A,5,Unknown,,,El Centro,CA,Imperial,118,32.912743,-115.510335
+North American Trading and Marketing,Unknown,Cancelled Project,N/A,50,Unknown,,,Bakersfield,CA,Kern,122,,
+Sonoma Green Energy,Sonoma Green Energy,Cancelled Project,N/A,1,Unknown,,,Petaluma,CA,Sonoma,126,38.301876,-122.754976
+Green Planet Power Solutions,"Green Planet Power Solutions, Inc.",Cancelled Project,N/A,30,Unknown,,,Colusa,CA,Colusa,127,,
+Big Valley Biomass Power,NexBank,Idle,N,,Biomass solid fuel,,,Bieber,CA,Lassen,2,41.132744,-121.137368
+Blue Lake Power,Redwood Coast Power,Idle,N,13,Biomass solid fuel,,Renewable Energy Providers Blue Lake Power,Blue Lake,CA,Humboldt,3,40.877693,-123.994609
+Covanta Burney Mtn. Power,Covanta,Idle,N,11,Biomass solid fuel,,Covanta,Burney,CA,Shasta,6,40.909703,-121.639961
+Covanta Delano Power,Covanta,Idle,N,58,Biomass solid fuel,,Covanta,Delano,CA,Kern,11,35.719097,-119.234588
+Imperial Valley Resource Recovery Power,Imperial Valley Resource Recovery,Idle,N,18,Biomass solid fuel,,,El Centro,CA,Imperial,19,32.906602,-115.51372
+Shasta Renewable,Shasta Renewable Resources/ White Oak Management,Idle,Y,7.2,"Biomass solid fuel, Zurn Fixed Grate Boiler, Elliot Steam Turbine, Delta Generator",,"Wheelabrator Hudson, Kiara Solar",Anderson,CA,Shasta,20,40.473227,-122.328937
+Madera Power,"Community Renewable Energy Services, Inc",Idle,N,33,Biomass solid fuel,,Yankee Energy,Firebaugh,CA,Fresno,21,36.861479,-120.338865
+Covanta Mendota Power,Covanta,Idle,N,25,Biomass solid fuel,,Covanta,Mendota,CA,Fresno,22,36.755903,-120.365273
+Mt. Lassen Power,CCP Power Solutions,Idle,N,12,Biomass solid fuel,,Covanta,Westwood,CA,Lassen,26,40.296983,-121.018053
+Covanta Pacific Oroville Power,Covanta,Idle,N,18,Biomass solid fuel,,Covanta,Oroville,CA,Butte,27,39.480996,-121.565567
+Sierra Biomass Power Corp.,Sierra Forest Products,Idle,Y,9.5,Biomass solid fuel,,Terra Bella,Terra Bella,CA,Tulare,38,35.953929,-119.046308
+ARP Loyalton Biomass Power,American Renewable Power,Idle,N,20,Biomass solid fuel,,SPI Loyalton Biomass Power,Loyalton,CA,Sierra,44,39.669937,-120.239409
+Tracy Biomass Power,Thermal Energy Development Partnership,Idle,N,23,Biomass solid fuel,,,Tracy,CA,San Joaquin,48,37.719987,-121.488451
+Air Products Stockton Biomass Power,Air Products,Idle,Y,60,"Co-fire or conversion (from coal, petcoke or TDF)",,,Stockton,CA,San Joaquin,1,37.912473,-121.261706
+West Biofuels Gasifier Pilot,West Biofuels,Idle,N,0.5,Gasification,,,Woodland,CA,Yolo,50,38.721719,-121.7544
+Mesquite Lake Resource Recovery Power,GreenHunter Energy Inc,Idle,N,18.5,Biomass solid fuel,,Formerly Chateau,El Centro,CA,Imperial,24,32.90381,-115.512373
+Rough & Ready Power,Rough & Ready Lumber,Liquidated,Y,1.5,Biomass solid fuel,,,Cave Junction,OR,Josephine,57,42.106133,-123.677315
+Buena Vista Biomass Power,Buena Vista Biomass,Idle,N,18.5,"Co-fire or conversion (from coal, petcoke or TDF)",,,Ione,CA,Amador,4,38.27792,-120.913763
+Colton Renewable Energy Center,"Colton Renewable Energy Center, LLC",Liquidated,N/A,49.9,Unknown,,,Colton,CA,San Bernardino,125,34.06079,-117.345883
+Sierra Biomass Power,Sierra Biomass LLC,Liquidated,N,15,Biomass solid fuel,,Auberry,Auberry,CA,Fresno,37,37.065354,-119.491147
+Soledad Energy,Soledad Energy,Liquidated,N,,Biomass solid fuel,,,Soledad,CA,Monterey,39,36.416976,-121.315617
+SPI Anderson I,SPI,Liquidated,Y,,Biomass solid fuel,,,Anderson,CA,Shasta,41,40.472715,-122.323162
+Susanville Biomass Power Project,Laidlaw Energy Group,Liquidated,N,12.5,Biomass solid fuel,,SPI Susanville,Susanville,CA,Lassen,47,40.408256,-120.644821
+Freshwater Pulp Biomass Power,Bob Simpson?,Liquidated,Y,50,Chemical recovery,,"Evergreen pulp, LP",Samoa,CA,Humboldt,17,40.805519,-124.195843
+AES Delano,Aes Corp,Liquidated,N/A,50,Unknown,,,Delano,CA,Kern,108,35.721901,-119.233356
+Amended and Restated Liberty V Biofuels,Liberty Composting,Liquidated,N/A,4.5,Unknown,,,Lost Hills,CA,Kern,109,35.679797,-119.796498
+Wheelabrator No.4,Wheelabrator,Liquidated,N/A,3,Unknown,,,Cottonwood,CA,Shasta,121,40.428435,-122.2769
+DG Fairhaven,EWP Corp,Idle,N,19.8,Biomass solid fuel,,East West Power,Fairhaven,CA,Humboldt,12,40.79946,-124.20309
+Humboldt Redwood Company Scotia Power,Humboldt Redwood Company,Operational,Y,32.5,Biomass solid fuel,,"Eel River Power, Scotia Power, PALCO",Scotia,CA,Humboldt,36,40.481337,-124.104634
+Ortigalita Power Company,Ortigalita Power Co.,Operational,N,1,Gasification,,Phoenix Energy,Merced,CA,Merced,29,37.335114,-120.528724
+Burney Forest Power,Burney Forest Products,Operational,Y,31,Biomass solid fuel,,Shasta Green,Burney,CA,Shasta,5,40.879724,-121.720406
+Chowchilla Biomass Power,Akeida Capital,Operational,N,12.5,Biomass solid fuel,,,Chowchilla,CA,Madera,8,37.107146,-120.248871
+Collins Pine Biomass Power,Collins Companies,Idle,Y,12,Biomass solid fuel,,,Chester,CA,Plumas,9,40.302842,-121.244088
+Greenleaf Desert View Power,Greenleaf Power (Recycled Energy Development),Operational,N,47,Biomass solid fuel,,Colmac,Mecca,CA,Riverside,10,33.586491,-116.087907
+Dinuba Energy,"Community Renewable Energy Services, Inc",Operational,N,12,Biomass solid fuel,,,Dinuba,CA,Tulare,14,36.569581,-119.418984
+Honey Lake Power,Greenleaf Power Inc,Operational,N,35.5,Biomass solid fuel,,,Wendel,CA,Lassen,18,40.368492,-120.264999
+Merced Power,Akeida Capital,Operational,N,12.5,Biomass solid fuel,,El Nido,El Nido,CA,Merced,23,37.186982,-120.490162
+Pacific Ultrapower Chinese Station Power,IHI Power Services,Operational,N,22,"Biomass solid fuel - EPI/Zurn Boiler, Turbodyne/Em Turbine Generator Set; GEA ai-cooled condenser",,,Jamestown,CA,Tuolumne,28,37.874644,-120.477546
+Rio Bravo Fresno Biomass Power,IHI Power 50% North American Power Group 50%,Operational,N,28.7,Boiler - Circulating Fluidized Bed,27,,Fresno,CA,Fresno,31,36.688823,-119.723405
+Rio Bravo Rocklin Biomass Power,IHI Power 50% North American Power Group 50%,Cancelled Project,N,25,Biomass solid fuel,,,Rocklin,CA,Placer,34,38.831829,-121.313601
+Roseburg Forest Products Biomass Power,Roseburg,Operational,Y,15,Biomass solid fuel,,,Weed,CA,Siskiyou,35,41.434612,-122.377895
+SPI Burney Biomass Power,SPI,Operational,Y,20,Biomass solid fuel,,,Burney,CA,Shasta,40,40.876759,-121.701845
+SPI Anderson Biomass Power II,SPI,Operational,Y,30.15,Biomass solid fuel,,,Anderson,CA,Shasta,42,40.47185,-122.324034
+SPI Lincoln Biomass Power,SPI,Operational,Y,19.2,Biomass solid fuel,,,Lincoln,CA,Placer,43,38.902678,-121.309604
+SPI Quincy Biomass Power,SPI,Operational,Y,27.5,Biomass solid fuel,,,Quincy,CA,Plumas,45,39.940962,-120.909161
+SPI Sonora Standard Biomass Power,SPI,Operational,Y,7.5,Biomass solid fuel,,,Sonora,CA,Tuolumne,46,37.965999,-120.318
+Wadham Biomass Power,Wadham Energy LP,Operational,N,26.5,Biomass solid fuel,,,Williams,CA,Colusa,49,39.105574,-122.110131
+Wheelabrator Shasta Energy,Wheelabrator Shasta Energy Company,Operational,N,58,Biomass solid fuel,53,,Anderson,CA,Shasta,51,40.429592,-122.278243
+DTE Woodland Biomass Power,DTE Energy Services,Operational,N,25,Biomass solid fuel,,,Woodland,CA,Yolo,52,38.691304,-121.737132
+Biomass One LP,Biomass One,Operational,Y,25,Biomass solid fuel,,,White City,OR,Jackson,56,42.436149,-122.849501
+DTE Stockton Biomass Power,DTE Energy Services,Operational,Y,50,"Co-fire or conversion (from coal, petcoke or TDF)",,,Stockton,CA,San Joaquin,16,37.943945,-121.330053
+DTE Mt. Poso Cogen,DTE Energy Services,Operational,Y,45,"Co-fire or conversion (from coal, petcoke or TDF)",,,Bakersfield,CA,Kern,25,35.576448,-119.005818
+Cal Forest Nursery Gasifier,"Growpro, Inc.",Operational,Y,0.07,Gasification,,,Etna,CA,Siskiyou,7,41.475178,-122.829037
+Dixon Ridge Farms Gasifier Power Pilot,Dixon Ridge Farms,Operational,Y,0.025,Gasification,,,Winters,CA,Yolo,15,38.524353,-121.903077
+Timber Products Veneer (Yreka),Timber Products,Operational,N/A,,Thermal,,,Yreka,CA,Siskiyou,103,41.731738,-122.589835
+Columbia Plywood,Columbia Forest Products,Operational,N/A,,Thermal,,,Klamath Falls,OR,Klamath,104,42.179712,-121.798302
+California Wood Shavings Biomass Dryer,American Wood Fiber,Operational,N/A,,Thermal - Wood boiler,,,Jamestown,CA,Tuolumne,136,37.838344,-120.5064
+Collins Pine Biomass (Klamath Falls),Collins Pine Company,Cancelled Project,N/A,,Unknown,,,Klamath Falls,OR,Klamath,102,42.16992,-121.818424
+Quincy High School Project,Plumas Unified School District,Active Project,N/A,0,Thermal,,,Quincy,CA,Plumas,62,39.936666,-120.946199
+Rio Bravo Jasmin Proposed Conversion,IHI Power 50% North American Power Group 50%,Cancelled Project,Y,35,"Co-fire or conversion (from coal, petcoke or TDF)",,,Bakersfield,CA,Kern,32,35.741508,-119.050911
+Rio Bravo Poso Proposed Conversion,IHI Power 50% North American Power Group 50%,Proposal,Y,35,"Co-fire or conversion (from coal, petcoke or TDF), CFB",,,Bakersfield,CA,Kern,33,35.547497,-119.075265
+Devils Garden Conservation Camp Proposed Project,Cal Fire,Proposal,N/A,,Thermal,,,Alturas,CA,Modoc,63,41.523309,-120.66971
+Trinity River Conservation Camp Proposed Project,Cal Fire,Proposal,N/A,,Thermal,,,Lewiston,CA,Trinity,64,40.78939,-122.802506
+California Ethanol & Power LLC,CE&P,Cancelled Project,N/A,49.9,Unknown,,,Brawley,CA,Imperial,105,32.91631,-115.522232
+Trinity River Lumber,Trinity River Lumber,Proposal,N/A,5,Unknown,,,Weaverville,CA,Trinity,106,40.72493,-122.930638
+Mariposa BioMAT Project,,Active Project,N/A,2.4,Gasification,,,Mariposa,CA,Mariposa,140,37.505994,-120.012666
+Round Valley BioMAT Project,,Proposal,N/A,,Unknown,,,Covelo,CA,Mendocino,142,39.80247641,-123.2495589
+Branscomb BioMAT Project,,Proposal,N/A,,Unknown,,,Branscomb,CA,Mendocino,143,39.65483903,-123.6251896
+Auberry BioMAT Project,,Proposal,N/A,,Unknown,,,Auberry,CA,Fresno,145,37.065986,-119.492349
+Sierra Energy BioMAT project,,Proposal,N/A,,Unknown,,,Chinese Camp,CA,Tuolumne,146,37.87842,-120.45625
