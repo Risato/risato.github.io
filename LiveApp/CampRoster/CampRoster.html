@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>1941-Present Forestry Camp Roster</title>
-    <meta name="author" content="Ricky Satomi">
-    <meta content="Displays Forestry Camp as a searchable, filterable, pretty HTML table" />
-    <!-- Latest compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="https://derekeder.github.io/csv-to-html-table/css/dataTables.bootstrap.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1941-Present Forestry Camp Roster</title>
+  <meta name="author" content="Ricky Satomi">
+  <meta content="Displays Forestry Camp as a searchable, filterable, pretty HTML table" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://derekeder.github.io/csv-to-html-table/css/dataTables.bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -35,27 +35,36 @@
         <p class='pull-right'><a href='https://github.com/derekeder/csv-to-html-table'>Powered by CSV to HTML Table</a> from <a href='http://derekeder.com'>Derek Eder</a></p>
       </div>
     </footer>
- -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
-<script src="js/bootstrap.min.js"></script>    
-<script src="js/jquery.csv.min.js"></script>    
-<script src="js/jquery.dataTables.min.js"></script>    
-<script src="js/dataTables.bootstrap.js"></script>    
-<script src='js/csv_to_html_table.js'></script>
+  -->
+  <div class="container-fluid">
+   <div id='tablesearch'></div>
+ </div>
 
 
-    <script>
-      CsvToHtmlTable.init({
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
+ <script src="js/bootstrap.min.js"></script>    
+ <script src="js/jquery.csv.min.js"></script>    
+ <script src="js/jquery.dataTables.min.js"></script>    
+ <script src="js/dataTables.bootstrap.js"></script>    
+ <script src='js/csv_to_html_table.js'></script>
 
+
+ <script>
+  function format_link(link){
+    if (link)
+      return "<a href='" + link + "' target='_parent'>" + "><div style="height:100%;width:100%">Camp Photos</div></a>";
+    else
+      return "";
+  }
+
+  CsvToHtmlTable.init({
         csv_path: 'https://risato.github.io/LiveApp/CampRoster/roster.csv', // https://docs.google.com/spreadsheets/d/1mrOibTkO35GkLl4dviHbx-9TLbeyMa9FxADxp-sDwmY/pub?gid=0&single=true&output=csv
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ','},
-        datatables_options: {"paging": false}
+        datatables_options: {"paging": false},
+        custom_formatting: [[3, format_link]]
       });
     </script>
   </body>
-</html>
+  </html>
