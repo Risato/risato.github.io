@@ -56,7 +56,7 @@
   CsvToHtmlTable.init({
         csv_path: 'https://risato.github.io/LiveApp/CampRoster/roster.csv', // https://docs.google.com/spreadsheets/d/1mrOibTkO35GkLl4dviHbx-9TLbeyMa9FxADxp-sDwmY/pub?gid=0&single=true&output=csv
         element: 'table-container', 
-        allow_download: true,
+        allow_download: false,
         csv_options: {separator: ','},
         datatables_options: {"paging": true},
         custom_formatting: [[3, format_link]]
