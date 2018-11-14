@@ -62,9 +62,9 @@
   CsvToHtmlTable.init({
         csv_path: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ROwcdFChsAIx6-tgQ4PN6XdNc7uYumueLuZLmJ-KbfmQlI_80XhbNzpp9C_1QTXdq1B9TMMZOFi4/pub?gid=2075271814&single=true&output=csv', 
         element: 'table-container', 
-        allow_download: true,
+        allow_download: false,
         csv_options: {separator: ','},
-        datatables_options: {"paging": true, "order": [[ 1, "desc" ]]},
+        datatables_options: {"paging": false, "order": [[ 1, "desc" ]]},
         custom_formatting: [[4, format_link]] 
 
       });
