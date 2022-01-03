@@ -3554,7 +3554,7 @@ Carlin,Starrs,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
 Chase,Quam,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
 Christine,Byrne,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
 Christopher,Mccoy,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
-David,Soderberg,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
+David,Soderberg,2010,https://forestrycamp.berkeley.edu/portfolio/2010,2021
 Debra,Pattison,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
 Elaina,Marshalek,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
 Gwyndolyn,Ozard,2010,https://forestrycamp.berkeley.edu/portfolio/2010,
@@ -3895,37 +3895,56 @@ Sabrina,Chui,2019,https://forestrycamp.berkeley.edu/portfolio/2019,
 Sabrina,Wilson ,2019,https://forestrycamp.berkeley.edu/portfolio/2019,
 Sunny,Elliott,2019,https://forestrycamp.berkeley.edu/portfolio/2019,
 Ursula,Harwood,2019,https://forestrycamp.berkeley.edu/portfolio/2019,
-Dale,Thornburgh,Unlisted,1961,1961
-David,Carneggie,Unlisted,"1963, 1964","1963, 1964"
-Dez,Kuimelis,Unlisted,1995,1995
-Ernest,Wohletz,Unlisted,"1931, 1932, 1933, 1936","1931, 1932, 1933, 1936"
-Eugenia,Szeto,Unlisted,1982,1982
-Gerald,Partain,Unlisted,1960,1960
-J. Douglas,Brodie,Unlisted,1967,1967
-Jacob,Winn,Unlisted,1989,1989
-James,Maloney,Unlisted,1962,1962
-Janet,Cavallaro,Unlisted,1983,1983
-Joe,Mawson,Unlisted,1963,1963
-Joe,McBride,Unlisted,1961,1961
-Joe,Zaer,Unlisted,1958,1958
-Lief,Espenas,Unlisted,1939,1939
-Norman,Johnson,Unlisted,1965,1965
-Paul,Veisze,Unlisted,1982,1982
-Peter,Twight,Unlisted,1969,1969
-Philip,Joranson,Unlisted,1939,1939
-Raul,Tuazon,Unlisted,1981,1981
-Richard,Kettlewell,Unlisted,1966,1966
-Robert,Blanchard,Unlisted,1936,1936
-Robert,Coats,Unlisted,1970,1970
-Robert,Keniston,Unlisted,1939,1939
-Robert,Seale,Unlisted,1939,1939
-Rudolph,Janecek,Unlisted,1939,1939
-Sally,Aitken,Unlisted,1988,1988
-Silas,Carr,Unlisted,1968,1968
-Tom,Parry,Unlisted,1975,1975
-William,Bentley,Unlisted,1960,1960
-William,Bentley,Unlisted,1962,1962
-William,Draeger,Unlisted,1965,1965
-William,Libby,Unlisted,1958,1958
+Dale,Thornburgh,#,1961,1961
+David,Carneggie,#,"1963, 1964","1963, 1964"
+Dez,Kuimelis,#,1995,1995
+Ernest,Wohletz,#,"1931, 1932, 1933, 1936","1931, 1932, 1933, 1936"
+Eugenia,Szeto,#,1982,1982
+Gerald,Partain,#,1960,1960
+J. Douglas,Brodie,#,1967,1967
+Jacob,Winn,#,1989,1989
+James,Maloney,#,1962,1962
+Janet,Cavallaro,#,1983,1983
+Joe,Mawson,#,1963,1963
+Joe,McBride,#,1961,1961
+Joe,Zaer,#,1958,1958
+Lief,Espenas,#,1939,1939
+Norman,Johnson,#,1965,1965
+Paul,Veisze,#,1982,1982
+Peter,Twight,#,1969,1969
+Philip,Joranson,#,1939,1939
+Raul,Tuazon,#,1981,1981
+Richard,Kettlewell,#,1966,1966
+Robert,Blanchard,#,1936,1936
+Robert,Coats,#,1970,1970
+Robert,Keniston,#,1939,1939
+Robert,Seale,#,1939,1939
+Rudolph,Janecek,#,1939,1939
+Sally,Aitken,#,1988,1988
+Silas,Carr,#,1968,1968
+Tom,Parry,#,1975,1975
+William,Bentley,#,1960,1960
+William,Bentley,#,1962,1962
+William,Draeger,#,1965,1965
+William,Libby,#,1958,1958
 Brandon,Pundamiera,2020,https://forestrycamp.berkeley.edu/portfolio/2020,
 Natalie,MacMillan,2020,https://forestrycamp.berkeley.edu/portfolio/2020,
+Quinn,Albert,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Mikayla ,Blair,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Quinn,Bosselman,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Treeanna,Brownfield,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Jules,Chen,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Nicole,Dutch,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Liam,Galleher,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Jordan,Inzunza,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Evan,Jones,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Amber,Lennon,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Sienna,Marley,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Sophie,Marxer,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Hannah,Rochford,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Emily,Rogers,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Connor,Ryan,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Carlos,Salazar,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Leonel,Solorio,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Simone,Stevens,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
+Lianne,Wong,2021,https://forestrycamp.berkeley.edu/portfolio/2021,
