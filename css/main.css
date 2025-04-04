@@ -121,7 +121,7 @@ footer ul li {
 }
 
 .day {
-  background: url('http://risato.github.io/Content/homepage.jpg');
+  background: url('http://risato.github.io/Content/homepage.jpg')
   no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
