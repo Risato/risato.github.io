@@ -6,6 +6,5 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vSVVtEQTHxGWjQPTnpU0fw08ADqGmOKxc7gLvDliDmcGfbFU8eRgfHWVMPnJ2Q8iXrRKRBPxmVo-McY/pub?embedded=true" width="800px" height="3000px" frameBorder="0" ></iframe></center>
-
+<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vSVVtEQTHxGWjQPTnpU0fw08ADqGmOKxc7gLvDliDmcGfbFU8eRgfHWVMPnJ2Q8iXrRKRBPxmVo-McY/pub?embedded=true" width="800px" height="2600px" frameBorder="0" ></iframe></center>
 {% include base_path %}
