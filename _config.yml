@@ -23,11 +23,11 @@ repository               : "risato.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Ricky Satomi"
   pronouns         : # example: "she/her"  
   bio              : "Forester dabbling in WebGIS"
   location         : #"Earth"
-  employer         : "University of California Cooperative Extension"
+  employer         : "UC Cooperative Extension"
   uri              : # URL
   email            : "rpsatomi@ucanr.edu" 
 
