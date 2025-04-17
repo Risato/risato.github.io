@@ -6,7 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vQZh5x7LZpNKknQXV8qBIiiReHnYQrOZU81Az2hrhPbqzHyjQXUFmdFLRYIeAZB6Q/pub?embedded=true" width="800px" height="100%" frameBorder="0"></iframe></center>
+<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vSVVtEQTHxGWjQPTnpU0fw08ADqGmOKxc7gLvDliDmcGfbFU8eRgfHWVMPnJ2Q8iXrRKRBPxmVo-McY/pub?embedded=true" width="800px" height="2000px" frameBorder="0" ></iframe></center>
+<iframe src=""></iframe>
 
 {% include base_path %}
 
