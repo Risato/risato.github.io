@@ -6,6 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+<center><iframe src="https://docs.google.com/document/d/e/2PACX-1vQZh5x7LZpNKknQXV8qBIiiReHnYQrOZU81Az2hrhPbqzHyjQXUFmdFLRYIeAZB6Q/pub?embedded=true" width="800px" height="800px" ></iframe></center>
 
 {% include base_path %}
 
