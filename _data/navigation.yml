@@ -9,7 +9,7 @@
 
 main:
   - title: "Projects"
-    url: /Projects/
+    url: /projects/
 
   - title: "Talks"
     url: /talks/    
@@ -18,7 +18,7 @@ main:
   #  url: /teaching/    
     
   - title: "Publications"
-    url: /Publications/
+    url: /publications/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
