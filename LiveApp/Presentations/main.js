@@ -52,7 +52,7 @@ function init() {
  */
 function addPoints(data) {
   data = data.data;
-  let pointGroupLayer = L.layerGroup().addTo(map);
+  let pointGroupLayer = L.MarkerClusterGroup().addTo(map);
 
   // Choose marker type. Options are:
   // (these are case-sensitive, defaults to marker!)
@@ -81,11 +81,11 @@ function addPoints(data) {
     }
     marker.addTo(pointGroupLayer);
 
-    marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].start + data[row].location + ' here');
+    marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].Start  + ', '+ data[row].location);
   }
 }
 // testing
-let pointGroupLayer = L.MarkerClusterGroup().addTo(map);
+// let pointGroupLayer = L.MarkerClusterGroup().addTo(map);
 
 // var markers = new L.MarkerClusterGroup();
 
