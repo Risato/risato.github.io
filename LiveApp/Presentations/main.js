@@ -14,7 +14,6 @@ let pointsURL =
 window.addEventListener("DOMContentLoaded", init);
 
 let map;
-let sidebar;
 let panelID = "my-info-panel";
 
 /*
@@ -80,25 +79,6 @@ function addPoints(data) {
 
     // UNCOMMENT THIS LINE TO USE POPUPS
     marker.bindPopup('<h2>' + data[row].Start + '</h2>'+' ' + data[row].location + ' here');
-
-    // COMMENT THE NEXT GROUP OF LINES TO DISABLE SIDEBAR FOR THE MARKERS
-    // marker.feature = {
-    //   properties: {
-    //     name: data[row].name,
-    //     description: data[row].Start + data[row].location,
-    //   },
-    // };
-    // marker.on({
-    //   click: function (e) {
-    //     L.DomEvent.stopPropagation(e);
-    //     document.getElementById("sidebar-title").innerHTML =
-    //       e.target.feature.properties.name;
-    //     document.getElementById("sidebar-content").innerHTML =
-    //       e.target.feature.properties.description;
-    //     sidebar.open(panelID);
-    //   },
-    // });
-    // COMMENT UNTIL HERE TO DISABLE SIDEBAR FOR THE MARKERS
 
     // AwesomeMarkers is used to create fancier icons
     let icon = L.AwesomeMarkers.icon({
