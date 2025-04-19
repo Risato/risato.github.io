@@ -35,6 +35,26 @@ function init() {
     }
   ).addTo(map);
 
+  sidebar = L.control
+    .sidebar({
+      container: "sidebar",
+      closeButton: true,
+      position: "right",
+    })
+    .addTo(map);
+
+  let panelContent = {
+    id: panelID,
+    tab: "<i class='fa fa-bars active'></i>",
+    pane: "<p id='sidebar-content'></p>",
+    title: "<h2 id='sidebar-title'>Nothing selected</h2>",
+  };
+  sidebar.addPanel(panelContent);
+
+  map.on("click", function () {
+    sidebar.close(panelID);
+  });
+
   // Use PapaParse to load data from Google Sheets
   // And call the respective functions to add those to the map.
   Papa.parse(pointsURL, {
@@ -79,26 +99,7 @@ function addPoints(data) {
     marker.addTo(pointGroupLayer);
 
     // UNCOMMENT THIS LINE TO USE POPUPS
-    marker.bindPopup('<h2>' + data[row].name + '</h2>There's a ' + data[row].description + ' here');
-
-    // COMMENT THE NEXT GROUP OF LINES TO DISABLE SIDEBAR FOR THE MARKERS
-    // marker.feature = {
-    //   properties: {
-    //     name: data[row].name,
-    //     description: data[row].Start + data[row].location,
-    //   },
-    // };
-    // marker.on({
-    //   click: function (e) {
-    //     L.DomEvent.stopPropagation(e);
-    //     document.getElementById("sidebar-title").innerHTML =
-    //       e.target.feature.properties.name;
-    //     document.getElementById("sidebar-content").innerHTML =
-    //       e.target.feature.properties.description;
-    //     sidebar.open(panelID);
-    //   },
-    // });
-    // COMMENT UNTIL HERE TO DISABLE SIDEBAR FOR THE MARKERS
+    marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].description + ' here');
 
     // AwesomeMarkers is used to create fancier icons
     let icon = L.AwesomeMarkers.icon({
@@ -111,5 +112,42 @@ function addPoints(data) {
     if (!markerType.includes("circle")) {
       marker.setIcon(icon);
     }
+  }
+}
+
+/*
+ * Accepts any GeoJSON-ish object and returns an Array of
+ * GeoJSON Features. Attempts to guess the geometry type
+ * when a bare coordinates Array is supplied.
+ */
+function parseGeom(gj) {
+  // FeatureCollection
+  if (gj.type == "FeatureCollection") {
+    return gj.features;
+  }
+
+  // Feature
+  else if (gj.type == "Feature") {
+    return [gj];
+  }
+
+  // Geometry
+  else if ("type" in gj) {
+    return [{ type: "Feature", geometry: gj }];
+  }
+
+  // Coordinates
+  else {
+    let type;
+    if (typeof gj[0] == "number") {
+      type = "Point";
+    } else if (typeof gj[0][0] == "number") {
+      type = "LineString";
+    } else if (typeof gj[0][0][0] == "number") {
+      type = "Polygon";
+    } else {
+      type = "MultiPolygon";
+    }
+    return [{ type: "Feature", geometry: { type: type, coordinates: gj } }];
   }
 }
