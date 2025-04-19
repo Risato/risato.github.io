@@ -68,7 +68,7 @@ function addPoints(data) {
         showCoverageOnHover: false,
         zoomToBoundsOnClick: false
       });
-    }
+    
     marker.addTo(pointGroupLayer);
 
     // UNCOMMENT THIS LINE TO USE POPUPS
@@ -86,4 +86,3 @@ function addPoints(data) {
       marker.setIcon(icon);
     }
   }
-}
