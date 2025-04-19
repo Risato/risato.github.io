@@ -81,10 +81,21 @@ function addPoints(data) {
     }
     marker.addTo(pointGroupLayer);
 
-    marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].description + ' here');
+    marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].start + data[row].location + ' here');
   }
 }
+// testing
+let pointGroupLayer = L.MarkerClusterGroup().addTo(map);
 
+// var markers = new L.MarkerClusterGroup();
+
+// markers.addLayer(L.marker([175.3107, -37.7784]));
+// // add more markers here...
+
+// map.addLayer(markers);
+// markers.on('clusterclick', function (a) { alert('Cluster Clicked'); });
+// markers.on('click', function (a) { alert('Marker Clicked'); });
+//end test
 /*
  * Accepts any GeoJSON-ish object and returns an Array of
  * GeoJSON Features. Attempts to guess the geometry type
