@@ -9,7 +9,7 @@
 // these URLs come from Google Sheets 'shareable link' form
 // the first is the geometry layer and the second the points
 let pointsURL =
-"https://docs.google.com/spreadsheets/d/e/2PACX-1vROZsz1MpAT-9wbZ37GrFf5Ueptndch2N7ceBJBfCC0vFO2cukgcUzWZ7zsMo6yApHkqvEw-iNDtuyM/pub?gid=1375559982&single=true&output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZsz1MpAT-9wbZ37GrFf5Ueptndch2N7ceBJBfCC0vFO2cukgcUzWZ7zsMo6yApHkqvEw-iNDtuyM/pub?gid=1375559982&single=true&output=csv";
 
 window.addEventListener("DOMContentLoaded", init);
 
@@ -28,11 +28,11 @@ function init() {
     "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png",
     {
       attribution:
-      "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>",
+        "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> &copy; <a href='http://cartodb.com/attributions'>CartoDB</a>",
       subdomains: "abcd",
       maxZoom: 19,
     }
-    ).addTo(map);
+  ).addTo(map);
 
   // Use PapaParse to load data from Google Sheets
   // And call the respective functions to add those to the map.
@@ -63,12 +63,18 @@ function addPoints(data) {
   let markerRadius = 100;
 
   for (let row = 0; row < data.length; row++) {
-    let marker = L.markerClusterGroup({
-        spiderfyOnMaxZoom: false,
-        showCoverageOnHover: false,
-        zoomToBoundsOnClick: false
+    let marker;
+    if (markerType == "circleMarker") {
+      marker = L.circleMarker([data[row].Latitude, data[row].Longitude], {
+        radius: markerRadius,
       });
-    
+    } else if (markerType == "circle") {
+      marker = L.circle([data[row].Latitude, data[row].Longitude], {
+        radius: markerRadius,
+      });
+    } else {
+      marker = L.marker([data[row].Latitude, data[row].Longitude]);
+    }
     marker.addTo(pointGroupLayer);
 
     // UNCOMMENT THIS LINE TO USE POPUPS
@@ -86,3 +92,4 @@ function addPoints(data) {
       marker.setIcon(icon);
     }
   }
+}
