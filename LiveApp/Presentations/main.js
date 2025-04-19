@@ -11,7 +11,7 @@
 let geomURL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTsAyA0Hpk_-WpKyN1dfqi5IPEIC3rqEiL-uwElxJpw_U7BYntc8sDw-8sWsL87JCDU4lVg2aNi65ES/pub?output=csv";
 let pointsURL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSFQw9sVY16eQmN5TIjOH7CUaxeZnl_v6LcdE2goig1pSe9I3hipeOn1sOwmC4fS0AURefRWwcKExct/pub?output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZsz1MpAT-9wbZ37GrFf5Ueptndch2N7ceBJBfCC0vFO2cukgcUzWZ7zsMo6yApHkqvEw-iNDtuyM/pub?gid=1375559982&single=true&output=csv";
 
 window.addEventListener("DOMContentLoaded", init);
 
@@ -154,15 +154,15 @@ function addPoints(data) {
   for (let row = 0; row < data.length; row++) {
     let marker;
     if (markerType == "circleMarker") {
-      marker = L.circleMarker([data[row].lat, data[row].lon], {
+      marker = L.circleMarker([data[row].Latitude, data[row].Longitude], {
         radius: markerRadius,
       });
     } else if (markerType == "circle") {
-      marker = L.circle([data[row].lat, data[row].lon], {
+      marker = L.circle([data[row].Latitude, data[row].Longitude], {
         radius: markerRadius,
       });
     } else {
-      marker = L.marker([data[row].lat, data[row].lon]);
+      marker = L.marker([data[row].Latitude, data[row].Longitude]);
     }
     marker.addTo(pointGroupLayer);
 
