@@ -14,7 +14,6 @@ let pointsURL =
 window.addEventListener("DOMContentLoaded", init);
 
 let map;
-let sidebar;
 let panelID = "my-info-panel";
 
 /*
@@ -34,22 +33,6 @@ function init() {
       maxZoom: 19,
     }
   ).addTo(map);
-
-  sidebar = L.control
-    .sidebar({
-      container: "sidebar",
-      closeButton: true,
-      position: "right",
-    })
-    .addTo(map);
-
-  let panelContent = {
-    id: panelID,
-    tab: "<i class='fa fa-bars active'></i>",
-    pane: "<p id='sidebar-content'></p>",
-    title: "<h2 id='sidebar-title'>Nothing selected</h2>",
-  };
-  sidebar.addPanel(panelContent);
 
   map.on("click", function () {
     sidebar.close(panelID);
@@ -98,20 +81,7 @@ function addPoints(data) {
     }
     marker.addTo(pointGroupLayer);
 
-    // UNCOMMENT THIS LINE TO USE POPUPS
     marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].description + ' here');
-
-    // AwesomeMarkers is used to create fancier icons
-    let icon = L.AwesomeMarkers.icon({
-      icon: "info-circle",
-      iconColor: "white",
-      markerColor: data[row].color,
-      prefix: "fa",
-      extraClasses: "fa-rotate-0",
-    });
-    if (!markerType.includes("circle")) {
-      marker.setIcon(icon);
-    }
   }
 }
 
