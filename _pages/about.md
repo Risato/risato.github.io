@@ -12,7 +12,7 @@ Ricky Satomi is an [Extension Forester for Sutter, Yuba, Nevada, and Butte Count
 His research explores the intersection of forest ecology and management to improve forest resilience to disturbance. He serves as co-chair of the UCANR Forestry Workgroup and chair of the California Society of American Foresters. Previously, Ricky served as forestry advisor for Shasta, Trinity, and Siskiyou counties, policy analyst at UC Richmond Wood Lab, and forestry consulting.  Developing career pathways for future generations of natural resource managers is a passion of his and Ricky co-leads several youth-focused education efforts including the Forestry Institute for Teachers K-12 educator training and California Project Learning Tree program. 
 
 
-For more info
+
 ------
 This webpage is based on [Academic Pages](https://github.com/academicpages/academicpages.github.io) a public GitHub repository utilizing the [GitHub pages](https://pages.github.com/) service to develop and host websites.
 
