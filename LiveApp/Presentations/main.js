@@ -35,26 +35,6 @@ function init() {
     }
   ).addTo(map);
 
-  sidebar = L.control
-    .sidebar({
-      container: "sidebar",
-      closeButton: true,
-      position: "right",
-    })
-    .addTo(map);
-
-  let panelContent = {
-    id: panelID,
-    tab: "<i class='fa fa-bars active'></i>",
-    pane: "<p id='sidebar-content'></p>",
-    title: "<h2 id='sidebar-title'>Nothing selected</h2>",
-  };
-  sidebar.addPanel(panelContent);
-
-  map.on("click", function () {
-    sidebar.close(panelID);
-  });
-
   // Use PapaParse to load data from Google Sheets
   // And call the respective functions to add those to the map.
   Papa.parse(pointsURL, {
@@ -99,7 +79,7 @@ function addPoints(data) {
     marker.addTo(pointGroupLayer);
 
     // UNCOMMENT THIS LINE TO USE POPUPS
-    marker.bindPopup('<h2>' + data[row].name + '</h2>There's a ' + data[row].description + ' here');
+    marker.bindPopup('<h2>' + data[row].Start + '</h2>'+' ' + data[row].location + ' here');
 
     // COMMENT THE NEXT GROUP OF LINES TO DISABLE SIDEBAR FOR THE MARKERS
     // marker.feature = {
