@@ -41,7 +41,7 @@
         results.data.forEach(row => {
           if (row.Latitude && row.Longitude) {
             const marker = L.marker([parseFloat(row.Latitude), parseFloat(row.Longitude)])
-              .bindPopup(`<b>${row.name}</b><br>${row.start}+${row.location}`);
+              .bindPopup(`<b>${row.name}</b><br>${row.Start}, ${row.location}`);
             markerCluster.addLayer(marker);
           }
         });
