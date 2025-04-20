@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leaflet web map with Google Sheets</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/leaflet.css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="css/leaflet-sidebar.css"/>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
-        html, body, #map {
-            height: 100%;
-            width: 100%;
-        }
-        #sidebar-content, #sidebar-title {
-            word-break: break-word;
-            margin-right: 40px;
-        }
-    </style>
+  <title>Leaflet Map with Marker Clustering from Google Sheets</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- MarkerCluster CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+  <!-- PapaParse for CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    #map { height: 100vh; }
+  </style>
 </head>
 <body>
-    <div id="map"></div>
-    <script src="js/leaflet.js"></script>
-    <script src="js/leaflet-sidebar.js"></script>
-    <script src="js/leaflet.awesome-markers.min.js"></script>
-    <script src="js/papaparse.min.js"></script>
-    <script src="main.js"></script>
+  <div id="map"></div>
+
+  <script>
+    const map = L.map('map').setView([37.208, -120.102], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data © OpenStreetMap contributors'
+    }).addTo(map);
+
+    const markerCluster = L.markerClusterGroup();
+    const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZsz1MpAT-9wbZ37GrFf5Ueptndch2N7ceBJBfCC0vFO2cukgcUzWZ7zsMo6yApHkqvEw-iNDtuyM/pub?gid=1375559982&single=true&output=csv"; // Replace with your CSV URL
+
+    Papa.parse(csvUrl, {
+      download: true,
+      header: true,
+      complete: function(results) {
+        results.data.forEach(row => {
+          if (row.Latitude && row.Longitude) {
+            const marker = L.marker([parseFloat(row.Latitude), parseFloat(row.Longitude)])
+              .bindPopup(`<b>${row.name}</b><br>${row.start}+${row.location}`);
+            markerCluster.addLayer(marker);
+          }
+        });
+        map.addLayer(markerCluster);
+      }
+    });
+  </script>
 </body>
 </html>
