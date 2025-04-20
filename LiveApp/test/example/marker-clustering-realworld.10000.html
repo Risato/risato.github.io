@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="../dist/MarkerCluster.Default.css" />
 	<script src="../dist/leaflet.markercluster-src.js"></script>
 	
-	<script src="realworld.10000.js"></script>
+	<script src="main.js"></script>
 
 </head>
 <body>
@@ -25,9 +25,9 @@
 				maxZoom: 18,
 				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
 			}),
-			latlng = L.latLng(-37.89, 175.46);
+			latlng = L.latLng(37.208, -120.102);
 
-		var map = L.map('map', {center: latlng, zoom: 13, layers: [tiles]});
+		var map = L.map('map', {center: latlng, zoom: 6, layers: [tiles]});
 
 		var markers = L.markerClusterGroup({ chunkedLoading: true });
 		

@@ -84,8 +84,6 @@ function addPoints(data) {
     marker.bindPopup('<h2>' + data[row].name + '</h2>'  + data[row].Start  + ', '+ data[row].location);
   }
 }
-// testing
-let pointGroupLayer = L.MarkerClusterGroup().addTo(map);
 
 // var markers = new L.MarkerClusterGroup();
 
