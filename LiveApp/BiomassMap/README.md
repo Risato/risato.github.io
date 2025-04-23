@@ -12,7 +12,7 @@ Built on a compilation of many openly sourced javascript plugins
 
 * [jQuery CSV](https://code.google.com/p/jquery-csv/) - Parse CSV (Comma Separated Values) to Javascript arrays or dictionaries.
 
-* [DataTables](http://datatables.net/) - add advanced interaction controls to any HTML table.
+* [DataTables](https://datatables.net/) - add advanced interaction controls to any HTML table.
 	
 * [group layer control](https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.js) - Description
 * [group layer control css](https://cdn.rawgit.com/ismyrnow/Leaflet.groupedlayercontrol/gh-pages/src/leaflet.groupedlayercontrol.css) - Description
@@ -37,7 +37,7 @@ Built on a compilation of many openly sourced javascript plugins
 * [marker cluster ](https://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js) - Description
 
 * [google map plugin](https://maps.google.com/maps/api/js?v=3.2&sensor=false) - Description
-* [google map plugin](http://psha.org.ru/leaflet/plugins/layer/tile/Google.js) - Description
+* [google map plugin](https://psha.org.ru/leaflet/plugins/layer/tile/Google.js) - Description
 * [google map plugin](https://cdn.rawgit.com/DGuidi/1992824.js) - Description
 * [google map plugin](https://gist.githubusercontent.com/crofty/2197042/raw/2b90c41b39b7d5b3a851d8f256de2ebd3fe1fb74/leaflet-google.js) - Description
 * [google map plugin](https://gist.githubusercontent.com/crofty/2197042/raw/) - Description

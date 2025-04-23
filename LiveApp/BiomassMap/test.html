@@ -144,12 +144,12 @@
     L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNhdG9taSIsImEiOiJjaW9sMDZkdjAwMDNldXhtMWllcTF5Z3E3In0.Cd_rMcLMmE1Zl5-jIiN8Hg";
     
     // basemap links below
-    var osmlayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="http://openstreetmap.org/copyright" target= "blank">OpenStreetMap</a> contributors'}); 
-    var terrainlayer = L.tileLayer('http://tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg', {
-      attribution: 'Map tiles by <a href="http://stamen.com" target = "blank">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0" target = "blank">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org" target = "blank">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0" target = "blank">CC BY SA</a>.' }); 
-    var esrilayer = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html" target="blank">(ESRI Terms of Use)</a>' }); 
+    var osmlayer = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://openstreetmap.org/copyright" target= "blank">OpenStreetMap</a> contributors'}); 
+    var terrainlayer = L.tileLayer('https://tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg', {
+      attribution: 'Map tiles by <a href="https://stamen.com" target = "blank">Stamen Design</a>, under <a href="https://creativecommons.org/licenses/by/3.0" target = "blank">CC BY 3.0</a>. Data by <a href="https://openstreetmap.org" target = "blank">OpenStreetMap</a>, under <a href="https://creativecommons.org/licenses/by-sa/3.0" target = "blank">CC BY SA</a>.' }); 
+    var esrilayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html" target="blank">(ESRI Terms of Use)</a>' }); 
     // var gmap_layer = new L.Google('ROADMAP');
     // var gmap_layer2 = new L.Google('SATELLITE');
     // var gmap_layer3 = new L.Google('TERRAIN');
@@ -333,7 +333,7 @@ legend.onAdd = function(map) {
   'Please attribute data to UC Berkeley'+
   '<br>'+
   '<span style="font-weight: bold;font-size: 20px">'+
-  '<a href="http://ucanr.edu/sites/WoodyBiomass/" target="http://ucanr.edu/sites/WoodyBiomass/">'+
+  '<a href="https://ucanr.edu/sites/WoodyBiomass/" target="https://ucanr.edu/sites/WoodyBiomass/">'+
   'Woody Biomass Utilization Group</a>'+
   '</span>'+
   '</h4>'+
@@ -1009,7 +1009,7 @@ var regionParameter = getURLParameter('region');
 var region = (regionParameter === 'undefined') ? '' : regionParameter;
 
 // MINIMAP - adds minimap 
-var osm2 = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 0, maxZoom: 13, });
+var osm2 = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 0, maxZoom: 13, });
 var miniMap = new L.Control.MiniMap(osm2, {width: 200, height: 150, position: 'topright', toggleDisplay: false }).addTo(map);
 
 // GEOCONTROL - add geolocation search box
