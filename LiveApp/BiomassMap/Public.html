@@ -345,7 +345,7 @@ legend.addTo(map);
 // LAYERS DEFINED BELOW. STRUCTURED SO THAT each layer shows only the filtered icons and them merges them together. 
 // duplicates two layers and merges them together
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
-var poweroverlayOperational = omnivore.csv('Data/Power Plant Master List - Public.csv')
+var poweroverlayOperational = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -417,7 +417,7 @@ var poweroverlayOperational = omnivore.csv('Data/Power Plant Master List - Publi
 });
 
 //should loop this, but could not get it to work. Quicker to brute force.
-var poweroverlayProposal = omnivore.csv('Data/Power Plant Master List - Public.csv')
+var poweroverlayProposal = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -489,7 +489,7 @@ var poweroverlayProposal = omnivore.csv('Data/Power Plant Master List - Public.c
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=1&output=csv
-var poweroverlayClosed = omnivore.csv('Data/Power Plant Master List - Public.csv')
+var poweroverlayClosed = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/Power Plant Master List - Public.csv')
 .on('layeradd',function(e) {
   var powermarker = e.layer;
   var feature = powermarker.feature;
@@ -543,7 +543,7 @@ var poweroverlayClosed = omnivore.csv('Data/Power Plant Master List - Public.csv
     else
     {
       powermarker.setIcon(L.icon({
-        iconUrl: 'https://risato.github.io/BiomassMap/Marker/Custom/MapIcon/Closed.png',
+        iconUrl: 'https://www.rickysatomi.com/LiveApp/BiomassMap/Marker/Custom/MapIcon/Closed.png',
         iconSize: [25,25]
       }));
     }
@@ -562,7 +562,7 @@ var poweroverlayClosed = omnivore.csv('Data/Power Plant Master List - Public.csv
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var woodoverlayOperational = omnivore.csv('Data/California Primary Wood Processing Master List - Public.csv')
+var woodoverlayOperational = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/California Primary Wood Processing Master List - Public.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -653,7 +653,7 @@ var woodoverlayOperational = omnivore.csv('Data/California Primary Wood Processi
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var woodoverlayProposal = omnivore.csv('Data/California Primary Wood Processing Master List - Public.csv')
+var woodoverlayProposal = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/California Primary Wood Processing Master List - Public.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -744,7 +744,7 @@ var woodoverlayProposal = omnivore.csv('Data/California Primary Wood Processing 
 
 //should loop this, but could not get it to work. Quicker to brute force.
 // https://docs.google.com/spreadsheet/pub?key=0AnyNiqk9X8DmdDJneGxsNTB6cFFQamRMX0VuNjhPQ2c&single=true&gid=0&output=csv
-var woodoverlayClosed = omnivore.csv('Data/California Primary Wood Processing Master List - Public.csv')
+var woodoverlayClosed = omnivore.csv('https://www.rickysatomi.com/BiomassMap/Data/California Primary Wood Processing Master List - Public.csv')
 .on('layeradd',function(e) {
   var sawmarker = e.layer;
   var feature = sawmarker.feature;
@@ -929,7 +929,7 @@ function onEachFeatureUtility(feature, layer) {
     onEachFeature:onEachFeatureairbasin
   });
 
-  var AIRBasinCoverage = omnivore.kml('Data/CARBAirBasins.kml',null,AIRBasinCustom)
+  var AIRBasinCoverage = omnivore.kml('https://www.rickysatomi.com/BiomassMap/Data/CARBAirBasins.kml',null,AIRBasinCustom)
   .on('layeradd', function(e) {
     var basinmarker = e.layer;
     var feature = basinmarker.feature;  
@@ -958,7 +958,7 @@ var UtilityCustom = L.geoJson(null, {
     onEachFeature:onEachFeatureUtility
   });
 
-var UtilityLayer = omnivore.kml('Data/ServiceAreaPublic.kml', null, UtilityCustom)
+var UtilityLayer = omnivore.kml('https://www.rickysatomi.com/BiomassMap/Data/ServiceAreaPublic.kml', null, UtilityCustom)
 .on('layeradd', function(e) {
   var servicemarker = e.layer;
   var feature = servicemarker.feature; 
