@@ -29,11 +29,6 @@
  <script src="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.js" ></script>
  <link rel="stylesheet" href="https://aratcliffe.github.io/Leaflet.contextmenu/dist/leaflet.contextmenu.css"/>
 
- <!-- GEOCONTROL - geocontrol search box script -->
- <script src="https://smeijer.github.io/GeoSearch/js/l.control.geosearch.js" ></script>
- <script src="https://smeijer.github.io/GeoSearch/js/l.geosearch.provider.google.js" ></script>
- <link rel="stylesheet" href="https://smeijer.github.io/GeoSearch/css/l.geosearch.css" />
-
  <!-- marker cluster script -->
  <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css" />
  <link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
@@ -141,7 +136,7 @@
 <script type ="text/javascript">
 
     // https://github.com/jseppi/Leaflet.MakiMarkers
-    // L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNhdG9taSIsImEiOiJjaW9sMDZkdjAwMDNldXhtMWllcTF5Z3E3In0.Cd_rMcLMmE1Zl5-jIiN8Hg";
+    L.MakiMarkers.accessToken = "pk.eyJ1IjoicnNhdG9taSIsImEiOiJjaW9sMDZkdjAwMDNldXhtMWllcTF5Z3E3In0.Cd_rMcLMmE1Zl5-jIiN8Hg";
     
     // basemap links below
     var osmlayer = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -1018,11 +1013,6 @@ var region = (regionParameter === 'undefined') ? '' : regionParameter;
 var osm2 = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 0, maxZoom: 13, });
 var miniMap = new L.Control.MiniMap(osm2, {width: 200, height: 150, position: 'topright', toggleDisplay: false }).addTo(map);
 
-// GEOCONTROL - add geolocation search box
-new L.Control.GeoSearch({
-  provider: new L.GeoSearch.Provider.Google({
-  })
-}).addTo(map);
 </script>
 </body>
 </html>
